@@ -1,5 +1,4 @@
 <#
-
      ( )( )          ( )_               (_ )       
     _| || |_     _ _ | ,_)   _       _   | |   ___ 
  /'_` || '_`\  /'_` )| |   /'_`\  /'_`\  | | /',__)
@@ -30,7 +29,7 @@ Get-Command -Module dbatools -CommandType Function | Measure-Object | Select-Obj
 
 
 # Let's do a Top 5
-
+cls
 
 
 
