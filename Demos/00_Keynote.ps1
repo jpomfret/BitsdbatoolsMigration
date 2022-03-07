@@ -46,7 +46,6 @@ cls
 
 
 
-
 # 5. Get details about our databases
 Get-DbaDatabase -SqlInstance $SQLInstances | Select-Object SqlInstance, Name, Status, RecoveryModel, Owner, AutoClose | Format-Table
 cls
@@ -163,6 +162,7 @@ Get-DbaDatabase -SqlInstance $SQLInstances -ExcludeSystem | Select-Object SqlIns
 Copy-DbaDatabase -Source $dbatools1 -Destination $dbatools2 -Database Northwind, pubs -BackupRestore -SharedPath '/shared' -SetSourceOffline
 Get-DbaDatabase -SqlInstance $SQLInstances  -ExcludeSystem | Select-Object SqlInstance, Name, Status | Format-Table
 cls
+
 
 
 
