@@ -112,6 +112,3 @@ Invoke-DbaQuery -SqlInstance $dbatools2 -Database Pubs -Query 'select @@serverna
 
 # Compare these dates and orders
 $sourceSales, $destSales
-
-# onward to documentation!
-code /workspace/Demos/04_ExportInstances.ps1
